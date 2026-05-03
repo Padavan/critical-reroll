@@ -1,0 +1,28 @@
+{
+  "name": "Critical Reroll",
+  "description": "Critical Roll (React edition)",
+  "license": "WTFPL2",
+  "repository": "",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/build.dev.cjs",
+    "build": "node scripts/build.prod.cjs",
+    "typecheck": "tsc --noEmit",
+    "fmt": "oxfmt src",
+    "lint": "oxlint src --fix"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-string-replace": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.28.0",
+    "oxfmt": "^0.46.0",
+    "oxlint": "^1.62.0",
+    "typescript": "^6.0.3"
+  }
+}

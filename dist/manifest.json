@@ -1,0 +1,16 @@
+{
+  "short_name": "Critical Reroll",
+  "name": "Critical Reroll",
+  "icons": [
+    {
+      "src": "/critical-reroll.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#30302f",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#30302f"
+}
