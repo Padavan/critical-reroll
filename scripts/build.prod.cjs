@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 (async function () {
-  const buildFolder = path.resolve("dist");
+  const buildFolder = path.resolve("docs");
   const publicFolder = path.resolve("public");
 
   /** @type {import('esbuild').BuildOptions} */
@@ -11,7 +11,7 @@ const path = require("path");
     bundle: true,
     logLevel: "info",
     entryPoints: ["src/index.ts"],
-    outfile: "dist/app.js",
+    outfile: "docs/app.js",
     loader: { ".wav": "file" },
     minify: true,
     treeShaking: true,

@@ -18,6 +18,9 @@ const path = require("node:path");
     format: "esm",
     sourcemap: true,
     loader: { ".wav": "file" },
+    define: {
+      'process.env.NODE_ENV': '"production"',
+    }
   };
 
   /** @type {import('esbuild').ServeOptions} */

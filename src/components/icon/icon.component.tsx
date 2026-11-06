@@ -18,7 +18,6 @@ import { IconNav } from "./icon-navicon";
 import { IconSettings } from "./icon-settings";
 import { IconShare } from "./icon-share";
 import { IconTrash } from "./icon-trash";
-import { IconKebab } from "./icon-kebab";
 
 const iconMapping: Record<string, (props: SVGProps<SVGSVGElement>) => ReactElement> = {
   bug: IconBug,
@@ -39,7 +38,6 @@ const iconMapping: Record<string, (props: SVGProps<SVGSVGElement>) => ReactEleme
   settings: IconSettings,
   share: IconShare,
   trash: IconTrash,
-  kebab: IconKebab,
 };
 
 interface IconProps extends SVGProps<SVGSVGElement> {

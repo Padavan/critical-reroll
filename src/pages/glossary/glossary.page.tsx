@@ -2,6 +2,7 @@ import React from "react";
 import { System } from "../../utils/util.types";
 import { useTranslation } from "../../providers/i18n.provider";
 import { useSettings } from "../../providers/settings.provider";
+import { systemMap } from "../../utils/const";
 
 function ruletips(system: System) {
   if (system == "dnd5") {
@@ -123,6 +124,13 @@ export function GlossaryPage() {
 
   return (
     <main>
+      <section>
+        <article style={{ width: "100%", margin: 0 }}>
+          <h5 style={{ marginBottom: 0 }}>
+            {t("CARDS-SYSTEM")}: {t(systemMap[settings.system])}
+          </h5>
+        </article>
+      </section>
       {ruletips(settings.system).map((section) => (
         <section key={section.title}>
           <h3>{t(section.title)}</h3>

@@ -7,5 +7,7 @@
   "SHARE-SUBJECT": "[PFRPG][D&D] CriticalRoll",
   "HELP-NEEDED": "Help needed!",
   "MAIL-BUG-SUBJECT": "[BUG] A bug in CriticalRoll",
+  "CARDS-RESET": "Reset",
+  "CARDS-SYSTEM": "System",
   "MAIL-BUG-BODY": "Hi! I've found a bug in CriticalRoll and it is:\n"
 }
